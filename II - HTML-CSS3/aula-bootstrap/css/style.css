@@ -1,0 +1,23 @@
+.navbar {
+    background-color: yellowgreen;
+}
+
+#quemsomos{
+    background-color: rgb(253, 253, 158);
+    padding-bottom: 40px;
+}
+
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#parceiros {
+    background-color: rgb(204, 172, 29);
+    padding-bottom: 40px;
+}
+
+.bg-footer{
+    color: white;
+    background-color: darkgreen;
+}
