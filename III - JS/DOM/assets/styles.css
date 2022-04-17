@@ -1,0 +1,53 @@
+body{ 
+    height:100vh; 
+    margin:0;
+    text-align: center; 
+    display:flex; 
+    flex-direction:column;   
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    background-color: rgb(245, 245, 245);  
+}
+
+footer{ 
+    min-height:50px; 
+    background:rgb(97, 97, 97);
+    margin-top:auto;
+    color: white;
+ }
+
+ button{
+    background-color: rgb(97, 97, 97);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+/* Dark Mode */
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+footer.dark-mode{
+    background: gray;
+    color: black;
+}
+
+button.dark-mode{
+    background-color: white;
+    color: black;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition-delay:0.2s;
+}
+
+button.dark-mode:hover{
+    background-color: rgb(97, 97, 97); 
+    color: white;
+    transition-delay:0.2s;
+}

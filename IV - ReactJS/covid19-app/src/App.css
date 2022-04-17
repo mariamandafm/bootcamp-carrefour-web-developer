@@ -1,0 +1,32 @@
+
+.App {
+  text-align: center;
+  background-image: url('../src/assets/images/covid-back.jpg')
+}
+
+.Cards {
+  padding: 30px;
+}
+
+.container{
+  padding: 50px 200px 50px 200px;
+  background-color: rgb(247, 247, 247);
+}
+
+.container h1{
+  padding-top: 30px;
+}
+
+.larg-card{
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgb(0, 50, 107);
+  color: white;
+}
+
+.navbar h1{
+  padding-left: 10px;
+}
+

@@ -5,7 +5,7 @@ function validaArray(array, numero){
             throw new RefereceError("Envie os parâmetros");
         };
         if (typeof array !== "object"){
-            throw new TypeErro("Array precisa ser do tipo object")
+            throw new TypeError("Array precisa ser do tipo object")
         };
         if (typeof numero !== "number"){
             throw new TypeError("Numero precisa ser do tipo number")
